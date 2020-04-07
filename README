@@ -1,1 +1,2 @@
-this is a git repo
+Succinct Radix Tree 是用简洁数据结构Succinct Data Structure构建的基数树，除了无法插入和删除外，具有基数树的一切功能，包括点查询和范围查询，且所占的空间非常小，接近信息表示的理论下界。
+创建时读入有序k-v表（此处为map<string,string>），可以在O(n)的时间复杂度内完成基数树的构建，其后可以调用对应函数完成查询。
